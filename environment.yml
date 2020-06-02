@@ -1,0 +1,14 @@
+name: scipy2020
+
+channels:
+  - bokeh
+  - conda-forge
+
+dependencies:
+  - python>=3.8
+  - holoviews
+  - jupyterlab
+  - requests
+  - geopandas
+  
+  #  jupyter labextension install @pyviz/jupyterlab_pyviz
