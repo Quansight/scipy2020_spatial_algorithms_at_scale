@@ -1,0 +1,40 @@
+name: scipy2020
+channels:
+  - bokeh
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - jupyterlab
+  - requests
+  # dask
+  - dask
+  - distributed
+  # numerical
+  - numpy
+  - pandas 
+  - pyarrow
+  - fastparquet
+  - pytest
+  # visualization 
+  - matplotlib
+  - bokeh
+  - holoviews
+  - geoviews
+  - datashader
+  - hvplot
+  # geopackages
+  - geopandas
+  - python-geohash
+  - kartothek
+  - shapely
+  # other
+  - setuptools
+  - python-snappy
+  - nodejs
+  - npm
+  - pip:
+    - polygon-geohasher
+  
+  #  jupyter labextension install @pyviz/jupyterlab_pyviz
