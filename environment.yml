@@ -1,7 +1,8 @@
-name: scipy2020
+name: scipy2020_2
 channels:
   - bokeh
   - conda-forge
+  - pyviz
   - defaults
 dependencies:
   - python
@@ -13,7 +14,7 @@ dependencies:
   - distributed
   # numerical
   - numpy
-  - pandas 
+  - pandas
   - pyarrow
   - fastparquet
   - pytest
@@ -26,14 +27,15 @@ dependencies:
   - hvplot
   # geopackages
   - geopandas
+  - datashader
   - python-geohash
   - kartothek
   - shapely
+  - spatialpandas
   # other
   - setuptools
   - python-snappy
   - nodejs
-  - npm
   - pip:
     - polygon-geohasher
   
