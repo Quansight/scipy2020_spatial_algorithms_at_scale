@@ -137,3 +137,6 @@ dask-worker-space/
 
 # csv
 *.csv
+
+# trash files
+**/trash/
