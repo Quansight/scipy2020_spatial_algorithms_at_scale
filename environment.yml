@@ -14,7 +14,7 @@ dependencies:
   - distributed
   # numerical
   - numpy
-  - pandas
+  - pandas < 1.0
   - pyarrow
   - fastparquet
   - pytest
